@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/steinunnmaria/verkefni6/issues"
   },
-  "homepage": "https://github.com/steinunnmaria/verkefni6#readme"
+  "homepage": "https://github.com/steinunnmaria/verkefni6#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
 }
