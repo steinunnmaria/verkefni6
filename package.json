@@ -1,0 +1,19 @@
+{
+  "name": "vef1-2020-v6",
+  "version": "1.0.0",
+  "description": "json",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steinunnmaria/verkefni6.git"
+  },
+  "author": "einar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steinunnmaria/verkefni6/issues"
+  },
+  "homepage": "https://github.com/steinunnmaria/verkefni6#readme"
+}
