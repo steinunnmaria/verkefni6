@@ -22,7 +22,10 @@
     "url": "https://github.com/steinunnmaria/verkefni6/issues"
   },
   "homepage": "https://github.com/steinunnmaria/verkefni6#readme",
-  "dependencies": {},
+  "dependencies": {
+    "stylelint-config-sass-guidelines": "^7.1.0",
+    "stylelint-config-standard": "^20.0.0"
+  },
   "devDependencies": {
     "browser-sync": "^2.26.12",
     "concurrently": "^5.3.0",
