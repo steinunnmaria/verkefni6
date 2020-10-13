@@ -21,8 +21,8 @@
   width: $full-size;
 }
 
-@for $i from 1 to 12 {
-  .col-#{$i} { width: 8.333333333*$i;}
+@for $i from 1 to 13 {
+  .col-#{$i} { width: 8.333333333%*$i;}
 }
 
 .offset-col-1 {
@@ -42,8 +42,8 @@
 medium—upp að 800px
 */
 @media (max-width: 799px) {
-  @for $i from 1 to 12 {
-    .col-md-#{$i} { width: 8.333333333*$i;}
+  @for $i from 1 to 13 {
+    .col-md-#{$i} { width: 8.333333333%*$i;}
   }
 
   .offset-col-md-1 {
@@ -64,8 +64,8 @@ medium—upp að 800px
 small—upp að 500px
 */
 @media (max-width: 499px) {
-  @for $i from 1 to 12 {
-    .col-sm-#{$i} { width: 8.333333333*$i;}
+  @for $i from 1 to 13 {
+    .col-sm-#{$i} { width: 8.333333333%*$i;}
   }
 
   .offset-col-sm-1 {
