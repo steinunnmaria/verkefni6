@@ -1,22 +1,23 @@
 // Sækja config
 // Allir stílar fyrir events
+@import './config';
 
 .events {
-  margin-bottom: 2rem;
+  margin-bottom: $root-size*2;
 }
 
 .events .col {
-  margin-bottom: 2rem;
+  margin-bottom: $root-size*2;
 }
 
 .event {
   position: relative;
 
-  width: 100%;
-  height: 100%;
+  width: $full-size;
+  height: $full-size;
   min-height: 250px;
 
-  background-color: #cccccc;
+  background-color: $darkwhite;
 
   word-break: break-word;
 }
@@ -26,11 +27,11 @@
 }
 
 .event h3 {
-  margin-bottom: 1rem;
+  margin-bottom: $root-size;
 }
 
 .event p {
-  margin-bottom: 1rem;
+  margin-bottom: $root-size;
   font-style: italic;
 }
 
@@ -44,23 +45,23 @@
   display: flex;
   left: 0; right: 0; top: 0; bottom: 0;
   transform-style: preserve-3d;
-  transition: transform 300ms ease-in-out;
+  transition: $transform-style;
 }
 
 .event:hover .card {
-  transform: rotateY(180deg);
+  transform: $flipcard-Y;
 }
 
 .event .face {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: $full-size;
+  height: $full-size;
   backface-visibility: hidden;
-  padding: 0.5rem;
+  padding: $root-size*0.5;
 }
 
 .event .face.back {
-  transform: rotateY(180deg);
+  transform: $flipcard-Y;
 }
 
 .event .front {
@@ -69,12 +70,12 @@
 
 .event .front h3 {
   margin: auto;
-  font-size: 2em;
+  font-size: $root-size*2;
   text-align: center;
 }
 
 .event .back {
-  height: 100%;
+  height: $full-size;
 
   display: flex;
   flex-direction: column;
